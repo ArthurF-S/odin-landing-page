@@ -38,6 +38,7 @@ ul, a{
   display: flex;
   padding: 100px 200px 100px 200px;
   gap: 50px;
+  margin-bottom: 50px;
  
 }
 
@@ -76,12 +77,14 @@ ul, a{
 /* Secao 2*/
 .sec2 {
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .titulo2 {
   font-size: 36px;
   font-weight: 900;
   color: #1F2937;
+  margin-bottom: 40px;
 }
 
 .images {
@@ -106,3 +109,70 @@ ul, a{
   margin-top: 5px;
 }
 
+/* Secao 3*/
+
+.sec3 {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-style: italic;
+  padding: 100px 200px 100px 200px;
+
+  flex-direction: column;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly
+}
+
+.thor {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Secao 4*/
+
+.sec4 {
+  display: flex;
+  margin: 100px 200px 100px 200px;
+  margin-bottom: 50px;
+  justify-content: space-around;
+  background-color: #3882f6;
+  border-radius: 10px;
+  align-items: center;
+  padding: 30px;
+}
+
+.titulo3 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.product {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+}
+
+.sign2 {
+  display: inline;
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 30px 10px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin: 0;
+  border-color: white;
+  border-style: solid;
+}
+
+/* FOOTER */
+.footer{
+  text-align: center;
+  padding: 30px 50px 30px 50px;
+  background-color: #1f2937;
+  color: #E5E7EB;
+}
